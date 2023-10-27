@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ravisenth/Task-Management/static/css/main.4cae030e.css",
+    "main.js": "/ravisenth/Task-Management/static/js/main.1aaf1e54.js",
+    "static/js/787.2dba336e.chunk.js": "/ravisenth/Task-Management/static/js/787.2dba336e.chunk.js",
+    "static/media/logo.svg": "/ravisenth/Task-Management/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ravisenth/Task-Management/index.html",
+    "main.4cae030e.css.map": "/ravisenth/Task-Management/static/css/main.4cae030e.css.map",
+    "main.1aaf1e54.js.map": "/ravisenth/Task-Management/static/js/main.1aaf1e54.js.map",
+    "787.2dba336e.chunk.js.map": "/ravisenth/Task-Management/static/js/787.2dba336e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cae030e.css",
+    "static/js/main.1aaf1e54.js"
+  ]
+}
