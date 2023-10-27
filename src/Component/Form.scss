@@ -1,0 +1,133 @@
+@import './Color.scss';
+
+.login{
+    left: 40%;
+    text-align: center;
+    margin-top: 6rem;
+    position: absolute;
+    color:white;
+
+    label{
+        margin-right: 2rem;
+    }
+    button{
+        @include but;
+        border-radius: 1px;
+        padding: 8px;
+        background-color: lightgreen;
+
+        &:hover{
+            background-color: green;
+            color:white;
+        }
+    }
+}
+.form{
+    text-align: center;
+    margin-top: 5rem;
+
+    label{
+        margin-right: 2rem;
+    }
+    button{
+        @include but;
+        border-radius: 1px;
+        padding: 8px;
+        background-color: lightgreen;
+
+        &:hover{
+            background-color: green;
+            color:white;
+        }
+    }
+}
+.navbar{
+    width:100%;
+    height:3rem;
+    background-color: lightblue;
+    
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+    .butt1{
+        @include but;
+         margin-right: 2rem;
+         margin-bottom: 5px;
+         margin-top: 5px;
+         margin-left: 5px;
+         background-color: white;
+         padding: 0.5rem;
+         
+         
+         &:hover{
+             background-color: green;
+             color:white
+         }
+ 
+     }
+     .butt2{
+        @include but;
+         margin-right: 2rem;
+         margin-bottom: 5px;
+         margin-top: 5px;
+         margin-left: 5px;
+         background-color: white;
+         padding: 0.5rem;
+         
+         
+         &:hover{
+             background-color: red;
+             color:white
+         }
+ 
+     }
+}
+.formdisplay{
+    width:30%;
+    margin: auto;
+    margin-top: 3rem;
+
+    .butt1{
+        @include but;
+         margin-right: 2rem;
+         margin-bottom: 5px;
+         margin-top: 5px;
+         margin-left: 5px;
+         background-color: yellow;
+         padding: 0.5rem;
+         
+         
+         &:hover{
+             background-color: green;
+             color:white
+         }
+ 
+     }
+     .butt2{
+        @include but;
+         margin-right: 2rem;
+         margin-bottom: 5px;
+         margin-top: 5px;
+         margin-left: 5px;
+         background-color: yellow;
+         padding: 0.5rem;
+         
+         
+         &:hover{
+             background-color: red;
+             color:white
+         }
+ 
+     }
+}
+.loginbg{
+    background-image: url('https://4kwallpapers.com/images/walls/thumbs_3t/8324.png');
+    width:100%;
+    height: 100vh;
+    position:relative;
+
+}
+tr:nth-child(even) {
+    background-color: lightgreen;
+  }
